@@ -1,4 +1,6 @@
----
+---WebView webView = findViewById(R.id.webview);
+webView.getSettings().setJavaScriptEnabled(true);
+webView.loadUrl("https://yourdomain.com");
 id: environment-setup
 title: Get Started with React Native
 hide_table_of_contents: true
